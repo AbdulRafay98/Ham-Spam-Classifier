@@ -1,6 +1,8 @@
 # Ham-Spam-Message-Classifier
 A machine learning model capable of predicting Han or Spam property of messages. The model is trained on two different supervised learning algorithm Support Vector Machine (SVM) and Logistic Regression (LR). 
 
+The repository contain two different datasets files, a jupyter notebook containing all the code and two pickle files for SVC and LR  trained model
+
 ## Libraries 
 ### * Pandas
 import pandas as pd
@@ -68,4 +70,4 @@ analyzing spam and ham messages with espect to he length of the text in each mes
 
 ## Model Training/spliting 
 split the combined dataset into 20-80 ratio, the model will trained on SVM and Logistic Regression. Saved the trained model using pickle.
-The two resulted model have accuracy on prediction 97.565 and 97.55 respectively.
+The two resulted model have accuracy on prediction 98.942 and 98.854 respectively.
