@@ -67,6 +67,5 @@ analyzing spam and ham messages with espect to he length of the text in each mes
 
 
 ## Model Training/spliting 
-split the combined dataset into 20-80 ratio, the model will trained on SVM and Logistic Regression.
-saved the trained model using pickle.
-the two resulted model have accuracy on prediction 97.565 and 97.55 respectively.
+split the combined dataset into 20-80 ratio, the model will trained on SVM and Logistic Regression. Saved the trained model using pickle.
+The two resulted model have accuracy on prediction 97.565 and 97.55 respectively.
