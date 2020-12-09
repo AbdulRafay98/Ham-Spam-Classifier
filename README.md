@@ -36,3 +36,36 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 ### * Pickle/joblib
 import pickle
+
+
+## The dataset
+The Classifier is trained using two combined datasetwith two columns (a feature colmum "Message" and a label column "Category").
+
+
+## Data Analysis
+checking percentage of presence of LABELS (ham, spam) using Pie plot.
+
+adding new column to the dataset 'length' with values of length of the text.
+
+spam/ham message length histogram plot
+
+checking number of spms and hams in the dataset using bar plot.
+
+
+## Feather Engineering
+to extract the tokens from the Message's column in every row, we use nltk method tokenize.word_tokenize().
+
+reducing wods in each spam/ham messages to its word stem or simply reducing word to its base word.
+
+
+## Data Visualization
+to visualize text data we use worldcloud() technique.
+
+checking most occuring words in spam messages and ham messages.
+
+analyzing spam and ham messages with espect to he length of the text in each message using distribution plot.
+
+
+## Model Training/spliting 
+split the combined dataset into 20-80 ratio, the model will trained on SVM and Logistic Regression.
+saved the trained model using pickle.
