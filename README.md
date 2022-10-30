@@ -1,4 +1,4 @@
-# Ham-Spam-Message-Classifier
+# Messages Classificaton into Ham or Spam
 A machine learning model capable of predicting Ham or Spam property of messages. The model is trained on two different supervised learning algorithm Support Vector Machine (SVM) and Logistic Regression (LR). 
 
 The repository contain two different datasets files, a jupyter notebook containing all the code and two pickle files for SVC and LR  trained model
